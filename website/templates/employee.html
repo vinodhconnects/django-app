@@ -7,6 +7,16 @@
 <div id="header">
    <h1> {{name}} </h1>
 </div>
+<form method="post">
+    {% csrf_token %}
+
+<table id="ftable">
+{{form}}
+<tr>
+<td colspan=2 align="center"><button type="submit">Add </button>
+</tr>
+</table>
+</form>
 <table id="ptable">
     <thead>
             <tr>
