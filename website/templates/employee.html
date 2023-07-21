@@ -1,0 +1,32 @@
+<html>
+    <head>
+        <title>Employees Home</title>
+        <link href="static/styles/employees.css" rel="stylesheet">
+       </head>
+    <body>
+<div class="header">
+    {{name}}
+</div>
+<table id="ptable">
+    <thead>
+            <tr>
+                 <th> Sno </th>
+                 <th> Name </th>
+                 <th> City </th>
+
+            </tr>
+
+    </thead>
+    <tbody>
+          {% for emp in employees%}
+          <tr>
+              <td> {{emp.sno}}</td>
+              <td> {{emp.name}}</td>
+              <td> {{emp.city}}</td>
+          </tr>
+            {% endfor %}
+    </tbody>
+
+</table>
+    </body>
+</html>
