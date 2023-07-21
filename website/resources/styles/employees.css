@@ -23,7 +23,7 @@
     background-color: rgb(164, 163, 162);
 }
 
-input[type="text"] {
+input[type="text"],input[type="number"] {
      height: 30px;
      width: 200px;
      border-radius: 5px;
