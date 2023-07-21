@@ -1,1 +1,1 @@
-from peopleapi.apis.serializers import SupplierSerializer
+from peopleapi.apis.serializers import SupplierSerializer,ProductSerializer
