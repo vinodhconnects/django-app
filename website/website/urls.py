@@ -21,5 +21,6 @@ from .views import home_view
 urlpatterns = [
     path('admin/', admin.site.urls),
     path('',home_view),
-    path('employees/',include('empapp.urls'))
+    path('employees/',include('empapp.urls')),
+    path('api/',include('peopleapi.urls'))
 ]
