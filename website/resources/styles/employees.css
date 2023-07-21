@@ -14,11 +14,30 @@
 }
 
 #ptable th {
-    background-color: darkblue;
-    color: whitesmoke;
+    background-color: rgb(43, 43, 44);
+    color: rgb(172, 167, 167);
 }
 
 #ptable td {
-    color: darkblue;
-    background-color: bisque;
+    color: rgb(61, 61, 64);
+    background-color: rgb(164, 163, 162);
+}
+
+input[type="text"] {
+     height: 30px;
+     width: 200px;
+     border-radius: 5px;
+     border: 2px solid rgb(46, 45, 45);
+}
+
+button,input[type=submit]{
+    color: white;
+    background-color: rgb(58, 58, 58);
+    padding: 5px;
+}
+
+button:hover,input[type=submit]:hover{
+    background-color: rgb(147, 145, 145);
+    color: rgb(231, 222, 222);
+    padding: 5px;
 }
