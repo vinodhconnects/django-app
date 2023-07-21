@@ -1,0 +1,24 @@
+#header{
+    height: 100px;
+    padding: 50px;
+    color: white;
+    background-color: rgb(55, 54, 54);
+}
+#ptable {
+    margin: 50px;
+}
+#ptable th, #ptable tr {
+    height: 30px;
+    padding: 10px;
+    width: 200px;
+}
+
+#ptable th {
+    background-color: darkblue;
+    color: whitesmoke;
+}
+
+#ptable td {
+    color: darkblue;
+    background-color: bisque;
+}
